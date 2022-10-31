@@ -1,0 +1,17 @@
+server 
+
+go to main folder
+client
+--this is for react
+server
+ - index.js
+--- this is for graphql 
+.env
+
+git bash in main folder
+1.npm init -y
+
+2.npm install express express-graphql graphql mongoose cors colors
+
+3.npm install -D nodemon dotenv 
+
