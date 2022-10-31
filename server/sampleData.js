@@ -30,6 +30,7 @@ const projects = [
       description:
         'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
       status: 'Done',
+      email: 'steve@gmail.com',
     },
     {
       id: '5',
@@ -74,5 +75,33 @@ const projects = [
       phone: '321-468-8887',
     },
   ];
+
+
+  // accounts
+
+   // accounts
+   const accounts = [
+    {
+      id: '1',
+      account: 'admin',
+    
+    },
+    {
+      id: '2',
+      account: 'user', 
+    },
+    {
+      id: '3',
+      account: 'user', 
+    },
+    {
+      id: '4',
+      account: 'user', 
+    },
+    {
+      id: '5',
+      account: 'user', 
+    },
+  ];
   
-  module.exports = { projects, clients };
+  module.exports = { projects, clients, accounts };
