@@ -83,24 +83,28 @@ const projects = [
    const accounts = [
     {
       id: '1',
-      account: 'admin',
-    
+      account: 'active',
+      access: 'admin'
     },
     {
       id: '2',
-      account: 'user', 
+      account: 'active', 
+      access: 'user'
     },
     {
       id: '3',
-      account: 'user', 
+      account: 'active', 
+      access: 'user'
     },
     {
       id: '4',
-      account: 'user', 
+      account: 'active', 
+      access: 'user'
     },
     {
       id: '5',
-      account: 'user', 
+      account: 'active', 
+      access: 'user'
     },
   ];
   
